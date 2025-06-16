@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color:  rgb(209, 239, 252);
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: rgb(51, 51, 51);
+}
+
+.instructions {
+  color: rgb(85, 85, 85);
+  margin-bottom: 1.5rem;
+}
+
+.dice-container {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.roll-button {
+  background-color: rgb(76, 175, 80);
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.roll-button:hover {
+  background-color: rgb(69, 160, 73);
+}
+
+.stats {
+  margin-top: 1rem;
+  color: rgb(68, 68, 68);
+}
+
+.winner-msg {
+  font-size: 1.2rem;
+  color: rgb(46, 125, 50);
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
